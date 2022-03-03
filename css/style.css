@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+a,a:hover {
+    text-decoration: none;
+    outline: 0;
+
+}
+.form-control:focus {
+    box-shadow: none;
+    
+}
+
+/* nav section starts here */
+#navsection {
+    background-color: #02918c;
+}
+#navsection ul li a {
+    font-size: 12px;
+    color: #ffffff;
+    
+    padding: 20px 25px;
+    
+    font-weight: 800;
+    transition: all linear 0.3s;
+    
+}
+#navsection ul li a:hover {
+    color: #cfc91d;
+}
+/* nav section ends here */
+
+/* banner section starts here */
+.slider_wrapper {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+.banner_content {
+    margin-bottom: 30px;
+}
+.slider_wrapper:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.658);
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+.banner_content h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.banner_content h1 {
+    font-size: 68px;
+    letter-spacing: 23px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.banner_shape {
+    padding: 50px 0px;
+}
+.banner_content h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.banner_content a {
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #cfc91d;
+    padding: 15px 55px;
+    margin-bottom: 30px;
+}
+
+/* banner section ends here */
+
+/* about section starts here */
+.about h2 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+        padding-top: 98px;
+        padding-bottom: 30px;
+}
+.about h3 {
+font-size: 16px;
+color: #7e8287;
+padding-bottom: 30px;
+}
+.about p {
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 40px;
+    
+}
+.about p span {
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+.title a i {
+    color: #02918c;
+    font-size: 30px;
+    transition: all linear 0.3s;
+}
+.title a i:hover {
+    color: #cfc91d;
+}
+.title h2 {
+        font-size: 16px;
+        font-weight: 800;
+        color: #9da0a3;
+        margin-top: 30px;
+}
+.title p {
+        color: #7e8287;
+        font-size: 11px;
+        line-height: 20px;
+        margin-top: 30px
+
+}
+.title {
+        border-right: 1px solid #7e8287;
+        padding: 30px 49px;
+        margin-top: 60px;
+}
+.title4 {
+    border: none;
+}
+/* about section ends here */
+
+
+/* service section starts here */
+#service {
+    background-color: #f0f0e8;
+    height: 730px;
+    background-position: top right !important;
+    background-repeat: no-repeat !important;
+    background-size: 50% 100% !important;
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+}
+#service:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.486);
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.title2 a i {
+    color: #02918c;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.title2 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #9da0a3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#service .about {
+    margin-top: -45px;
+}
+/* service section ends here */
+
+/* work section starts here */
+.image1 {
+    position: relative;
+    
+}
+.image1 .overlay_color {
+    position: absolute;
+    background-color: #02918cb6;
+    height: 82%;
+    width: 84%;
+    left: 26px;
+    top: 21px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.image1 .overlay_text {
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+}
+.image1:hover .overlay_color {
+    opacity: 1;
+}
+.overlay_text a {
+    cursor: pointer;
+    color: white;
+    
+}
+.overlay_text a h2 {
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+.overlay_text a:hover {
+    color: #cfc91d;
+}
+/* work section ends here */
+
+/* contact section starts here */
+.contact_form input {
+    
+    background: none;
+    margin-bottom: 45px;
+    
+}
+.contact_form {
+    height: 564px;
+    background-color: #0b0b0b;
+}
+.contact_form .form-control {
+    background: none;
+    border: none;
+    border-radius: initial;
+    border-bottom: solid 1px #7e8287;
+    color: #7e8287;
+}
+.contact_form button {
+    padding: 16px 74px;
+    margin-top: 65px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #cfc91d;
+    cursor: pointer;
+}
+
+/* contact section ends here */
+
+/* copyright section starts here */
+#copyright {
+    background-color: #000000;
+    height: 72px;
+}
+#copyright h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #66696e;
+}
+/* copyright section ends here */
