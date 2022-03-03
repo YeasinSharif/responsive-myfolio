@@ -284,3 +284,48 @@ padding-bottom: 30px;
     color: #66696e;
 }
 /* copyright section ends here */
+
+
+
+
+/*fixed menu*/
+#navsection.fixed-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background: #02918c;
+    width: 100%;
+    animation: smooth .5s;
+
+}
+
+@keyframes smooth {
+    0% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+/*fixed menu*/
+
+/* back to top button */
+#topbtn {
+    background: none;
+    border: none;
+    color: white;
+    background-color: #02918c;
+    padding: 15px;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+    z-index: 50;
+}
+
+/* back to top button */
