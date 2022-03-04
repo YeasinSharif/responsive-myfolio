@@ -1,5 +1,6 @@
 
 @media (min-width: 320px) and (max-width: 575.98px) {
+    
     #service {
         height: 760px;
         margin-top: 20px;
@@ -82,6 +83,12 @@
 }
 .contact_form button {
     margin-top: 35px;
+}
+
+.image1 .overlay_text {
+    
+    top: 5px;
+    
 }
 
 }
@@ -289,3 +296,138 @@
     }
 
 }
+
+@media (min-width: 1077px) and (max-width: 1199px) {
+    .image1 .overlay_text {
+
+        top: 25px;
+
+    }
+
+    .overlay_text p {
+        padding: 0;
+    }
+}
+
+@media (min-width: 356px) and (max-width: 367px) {
+    .image1 .overlay_color {
+        
+        left: 28px;
+        
+    }
+    .image1 .overlay_text {
+        top: 14px;
+    }
+
+}
+
+@media (min-width: 368px) and (max-width: 391px) {
+    .image1 .overlay_text {
+        top: 19px;
+    }
+    .image1 .overlay_color {
+
+        left: 30px;
+
+    }
+    .overlay_text p {
+        padding: 0px 45px;
+    }
+
+    
+
+}
+
+@media (min-width: 392px) and (max-width: 403px) {
+    .image1 .overlay_text {
+        top: 25px;
+    }
+
+    .image1 .overlay_color {
+
+        left: 32px;
+
+    }
+
+    .overlay_text p {
+        padding: 0px 50px;
+    }
+    }
+
+    @media (min-width: 404px) and (max-width: 440px) {
+        .image1 .overlay_color {
+            
+            left: 35px;
+            top: 27px;
+            
+        }
+        .image1 .overlay_text {
+            top: 35px;
+        }
+    }
+    @media (min-width: 441px) and (max-width: 450px) {
+        .image1 .overlay_color {
+            
+            left: 36px;
+            top: 29px;
+            
+        }
+        .image1 .overlay_text {
+            top: 38px;
+        }
+        }
+        @media (min-width: 451px) and (max-width: 484px) {
+            .image1 .overlay_text {
+                top: 50%;
+                transform: translateY(-50%);
+                margin-top: 0;
+            }
+            .image1 .overlay_color {
+                
+                left: 40px;
+                top: 31px;
+                
+            }
+            .image1 .overlay_text p {
+                padding: 0px 45px;
+            }
+        }
+
+         @media (min-width: 485px) and (max-width: 549px) {
+             .image1 .overlay_text {
+                 top: 50%;
+                 transform: translateY(-50%);
+                 margin-top: 0;
+             }
+
+             .image1 .overlay_color {
+
+                 left: 40px;
+                 top: 33px;
+
+             }
+
+             .image1 .overlay_text p {
+                 padding: 0px 95px;
+             }
+         }
+
+
+        @media (min-width: 550px) and (max-width: 575px) {
+            .image1 .overlay_color {
+
+                left: 46px;
+                top: 39px;
+
+            }
+
+            .image1 .overlay_text {
+                top: 70px;
+            }
+            .image1 .overlay_text p {
+                padding: 0px 95px;
+            }
+        }
+
+       
+        

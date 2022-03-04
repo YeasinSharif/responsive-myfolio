@@ -311,21 +311,3 @@ padding-bottom: 30px;
 }
 
 /*fixed menu*/
-
-/* back to top button */
-#topbtn {
-    background: none;
-    border: none;
-    color: white;
-    background-color: #02918c;
-    padding: 15px;
-    position: fixed;
-    right: 40px;
-    bottom: 50px;
-    cursor: pointer;
-    border-radius: 5px;
-    display: none;
-    z-index: 50;
-}
-
-/* back to top button */

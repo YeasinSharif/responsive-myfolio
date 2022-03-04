@@ -1,5 +1,5 @@
 $(function () {
-    /*fixed menu js start*/
+    /*fixed menu js start
     
    $(window).on('scroll', function(){
        if ($(window).scrollTop() > $('#navsection').height()){
@@ -9,7 +9,7 @@ $(function () {
        }
    })
 
-   /*fixed menu js ends*/
+   fixed menu js ends*/
 
 
    /* back to top button js starts */
